@@ -1,0 +1,48 @@
+{
+  "name": "MFTracker - Mutual Fund Portfolio Analyzer",
+  "short_name": "MFTracker",
+  "description": "Free mutual fund portfolio analyzer with risk scoring, SIP calculator, and rebalancing recommendations",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["finance", "productivity", "utilities"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Portfolio Tracker",
+      "short_name": "Tracker",
+      "description": "Analyze your mutual fund portfolio",
+      "url": "/analyzer/tracker",
+      "icons": [{ "src": "/icon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "SIP Calculator",
+      "short_name": "Calculator",
+      "description": "Calculate SIP returns",
+      "url": "/analyzer/calculator",
+      "icons": [{ "src": "/icon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Smart Rebalancer",
+      "short_name": "Rebalancer",
+      "description": "Get portfolio recommendations",
+      "url": "/analyzer/rebalancer",
+      "icons": [{ "src": "/icon.svg", "sizes": "96x96" }]
+    }
+  ]
+}
