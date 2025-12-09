@@ -5,7 +5,7 @@
 
 export const SITE_CONFIG = {
     // Update this URL when deploying to a custom domain
-    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://mftracker-ten.vercel.app',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://mftracker.sandipmaity.me',
     name: 'MFTracker',
     description: 'Portfolio Health Analyzer for Mutual Funds',
 } as const;

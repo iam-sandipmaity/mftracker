@@ -11,8 +11,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "jspdf": "^2.5.2",
-    "jspdf-autotable": "^3.8.4",
+    "jspdf": "^3.0.4",
+    "jspdf-autotable": "^5.0.2",
     "lucide-react": "^0.468.0",
     "next": "^15.1.0",
     "papaparse": "^5.4.1",

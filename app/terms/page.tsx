@@ -331,7 +331,7 @@ export default function TermsOfService() {
                         </p>
                         <div className="bg-slate-900/50 rounded-lg p-4 border border-slate-700/50">
                             <p className="text-white">Email: <a href="mailto:legal@mftracker.com" className="text-indigo-400 hover:text-indigo-300">legal@mftracker.com</a></p>
-                            <p className="text-white mt-2">Website: <a href="https://mftracker-ten.vercel.app" className="text-indigo-400 hover:text-indigo-300">mftracker-ten.vercel.app</a></p>
+                            <p className="text-white mt-2">Website: <a href="https://mftracker.sandipmaity.me" className="text-indigo-400 hover:text-indigo-300">mftracker.sandipmaity.me</a></p>
                         </div>
                     </section>
 

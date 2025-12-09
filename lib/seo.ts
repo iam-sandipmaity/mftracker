@@ -19,7 +19,7 @@ export function generateMetadata({
     noindex = false,
     type = 'website',
 }: SEOConfig): Metadata {
-    const siteUrl = 'https://mftracker.com';
+    const siteUrl = 'https://mftracker.sandipmaity.me';
     const fullTitle = title.includes('MFTracker') ? title : `${title} | MFTracker`;
     const canonicalUrl = canonical ? `${siteUrl}${canonical}` : undefined;
 
@@ -71,7 +71,7 @@ export function generateArticleMetadata({
     tags?: string[];
     canonical: string;
 }): Metadata {
-    const siteUrl = 'https://mftracker.com';
+    const siteUrl = 'https://mftracker.sandipmaity.me';
     const fullTitle = `${title} | MFTracker`;
     const canonicalUrl = `${siteUrl}${canonical}`;
 

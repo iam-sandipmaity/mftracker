@@ -115,7 +115,7 @@ npm start
 npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the application.
+Open [https://mftracker.sandipmaity.me](https://mftracker.sandipmaity.me) to view the application in production, or [http://localhost:3000](http://localhost:3000) for local development.
 
 ## 📖 Usage Guide
 

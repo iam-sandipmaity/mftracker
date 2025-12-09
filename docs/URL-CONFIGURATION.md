@@ -9,7 +9,7 @@ All URLs in the application are now centralized in `lib/config.ts`. This makes i
 Edit `.env.local` and set your site URL:
 
 ```env
-NEXT_PUBLIC_SITE_URL=https://mftracker-ten.vercel.app
+NEXT_PUBLIC_SITE_URL=https://mftracker.sandipmaity.me
 ```
 
 Or when deploying to production/custom domain:
@@ -33,7 +33,7 @@ The main configuration is in `lib/config.ts`:
 
 ```typescript
 export const SITE_CONFIG = {
-    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://mftracker-ten.vercel.app',
+    url: process.env.NEXT_PUBLIC_SITE_URL || 'https://mftracker.sandipmaity.me',
     name: 'MFTracker',
     description: 'Portfolio Health Analyzer for Mutual Funds',
 }
@@ -49,7 +49,7 @@ Use this to generate absolute URLs:
 import { getAbsoluteUrl } from '@/lib/config';
 
 const blogUrl = getAbsoluteUrl('/blog');
-// Result: https://mftracker-ten.vercel.app/blog
+// Result: https://mftracker.sandipmaity.me/blog
 ```
 
 ## Files Updated
@@ -80,7 +80,7 @@ Set the `NEXT_PUBLIC_SITE_URL` environment variable in your hosting platform's s
 
 ## Default Behavior
 
-If `NEXT_PUBLIC_SITE_URL` is not set, the app defaults to `https://mftracker-ten.vercel.app`.
+If `NEXT_PUBLIC_SITE_URL` is not set, the app defaults to `https://mftracker.sandipmaity.me`.
 
 To change the default, edit `lib/config.ts`:
 

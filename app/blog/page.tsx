@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { BookOpen, Calculator, PieChart, Target, TrendingUp, FileText, Clock } from 'lucide-react';
+import { BookOpen, Calculator, PieChart, Target, TrendingUp, FileText, Clock, IndianRupee, TrendingDown, Heart } from 'lucide-react';
 
 import { getAbsoluteUrl } from '@/lib/config';
 
@@ -33,6 +33,33 @@ const guides: BlogPost[] = [
         readTime: '12 min read',
         category: 'Complete Guide',
         color: 'purple',
+    },
+    {
+        slug: 'income-tax-calculator-guide',
+        title: 'Income Tax Calculator Guide FY 2025-26',
+        description: 'Complete guide to calculating income tax with all income sources, deductions (80C, 80D, 80E), and comparing old vs new tax regime.',
+        icon: IndianRupee,
+        readTime: '10 min read',
+        category: 'Tool Guide',
+        color: 'indigo',
+    },
+    {
+        slug: 'goal-planner-guide',
+        title: 'Financial Goal Planning Guide',
+        description: 'Master goal-based investing for retirement, education, home purchase. Learn systematic planning with inflation adjustment.',
+        icon: Heart,
+        readTime: '8 min read',
+        category: 'Tool Guide',
+        color: 'emerald',
+    },
+    {
+        slug: 'tax-optimizer-guide',
+        title: 'Tax Optimizer & Capital Gains Guide',
+        description: 'Learn LTCG/STCG taxation, tax-loss harvesting strategies, and minimize your mutual fund tax liability legally.',
+        icon: TrendingDown,
+        readTime: '9 min read',
+        category: 'Tool Guide',
+        color: 'orange',
     },
     {
         slug: 'portfolio-tracker-guide',

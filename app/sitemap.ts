@@ -37,6 +37,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 0.8,
         },
         {
+            url: `${baseUrl}/analyzer/tax-optimizer`,
+            lastModified: currentDate,
+            changeFrequency: 'monthly',
+            priority: 0.8,
+        },
+        {
+            url: `${baseUrl}/analyzer/tax-calculator`,
+            lastModified: currentDate,
+            changeFrequency: 'monthly',
+            priority: 0.8,
+        },
+        {
+            url: `${baseUrl}/analyzer/goals`,
+            lastModified: currentDate,
+            changeFrequency: 'monthly',
+            priority: 0.8,
+        },
+        {
             url: `${baseUrl}/formula`,
             lastModified: currentDate,
             changeFrequency: 'monthly',
@@ -53,6 +71,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: currentDate,
             changeFrequency: 'monthly',
             priority: 0.9,
+        },
+        {
+            url: `${baseUrl}/blog/income-tax-calculator-guide`,
+            lastModified: currentDate,
+            changeFrequency: 'monthly',
+            priority: 0.8,
+        },
+        {
+            url: `${baseUrl}/blog/goal-planner-guide`,
+            lastModified: currentDate,
+            changeFrequency: 'monthly',
+            priority: 0.8,
+        },
+        {
+            url: `${baseUrl}/blog/tax-optimizer-guide`,
+            lastModified: currentDate,
+            changeFrequency: 'monthly',
+            priority: 0.8,
         },
         {
             url: `${baseUrl}/blog/portfolio-tracker-guide`,

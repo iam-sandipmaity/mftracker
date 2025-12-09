@@ -23,7 +23,7 @@ export function generateBreadcrumbSchema(items: { name: string; url: string }[])
             "@type": "ListItem",
             "position": index + 1,
             "name": item.name,
-            "item": `https://mftracker.com${item.url}`
+            "item": `https://mftracker.sandipmaity.me${item.url}`
         }))
     };
 }
@@ -100,7 +100,7 @@ export function generateFinancialServiceSchema() {
         "@type": "FinancialService",
         "name": "MFTracker - Mutual Fund Portfolio Analyzer",
         "description": "Free portfolio analysis and SIP calculation service for mutual fund investors",
-        "url": "https://mftracker.com",
+        "url": "https://mftracker.sandipmaity.me",
         "areaServed": "IN",
         "serviceType": "Portfolio Analysis",
         "hasOfferCatalog": {

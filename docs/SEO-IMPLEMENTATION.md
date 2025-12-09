@@ -24,8 +24,8 @@ Comprehensive SEO implementation with structured data, performance monitoring, a
 {
   "@type": "Organization",
   "name": "MFTracker",
-  "url": "https://mftracker.com",
-  "logo": "https://mftracker.com/icon.svg"
+  "url": "https://mftracker.sandipmaity.me",
+  "logo": "https://mftracker.sandipmaity.me/icon.svg"
 }
 ```
 
@@ -35,7 +35,7 @@ Comprehensive SEO implementation with structured data, performance monitoring, a
   "@type": "WebSite",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://mftracker.com/analyzer/tracker?search={search_term_string}"
+    "target": "https://mftracker.sandipmaity.me/analyzer/tracker?search={search_term_string}"
   }
 }
 ```
@@ -216,6 +216,23 @@ Schema generators:
 **Focus:** Risk profiles, portfolio optimization
 **Schemas:** Breadcrumb, HowTo
 
+### Tax Optimizer (`/analyzer/tax-optimizer`)
+**Title:** "Tax Optimizer - LTCG/STCG Calculator & Tax-Loss Harvesting"
+**Focus:** Capital gains tax calculation, tax-loss harvesting opportunities
+**Schemas:** Breadcrumb, HowTo
+
+### Income Tax Calculator (`/analyzer/tax-calculator`)
+**Title:** "Income Tax Calculator FY 2025-26 - Old vs New Regime Comparison"
+**Focus:** Complete tax calculation with all income sources and deductions
+**Schemas:** Breadcrumb, HowTo, FAQ
+**Features:** All income sources (salary, HRA, business, capital gains, rental), deductions (80C, 80D, 80E, 80G, 24, NPS), family details, HUF support, regime comparison
+
+### Goal Planner (`/analyzer/goals`)
+**Title:** "Financial Goal Planner - SIP Calculator for Retirement, Education & Dream Goals"
+**Focus:** Goal-based SIP planning with inflation adjustment
+**Schemas:** Breadcrumb, HowTo, FAQ
+**Features:** Multiple goal types (retirement, education, home, vacation, wedding), inflation-adjusted planning, progress tracking
+
 ### Methodology (`/formula`)
 **Title:** "Portfolio Analysis Methodology - How Our Risk Scoring Works"
 **Focus:** Educational content, transparency
@@ -321,13 +338,13 @@ When creating a new page:
 ### Manual Checks
 ```bash
 # Test metadata
-curl -I https://mftracker.com
+curl -I https://mftracker.sandipmaity.me
 
 # Validate sitemap
-curl https://mftracker.com/sitemap.xml
+curl https://mftracker.sandipmaity.me/sitemap.xml
 
 # Check robots.txt
-curl https://mftracker.com/robots.txt
+curl https://mftracker.sandipmaity.me/robots.txt
 
 # Test structured data
 View page source → Search for "application/ld+json"

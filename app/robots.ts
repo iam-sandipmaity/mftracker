@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
                 disallow: ['/api/', '/_next/'],
             },
         ],
-        sitemap: 'https://mftracker.com/sitemap.xml',
+        sitemap: 'https://mftracker.sandipmaity.me/sitemap.xml',
     };
 }
